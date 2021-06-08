@@ -1,0 +1,35 @@
+a=[]
+chi=int(input("國文:"))
+eng=int(input("英文:"))
+ma=int(input("微積分:"))
+gym=int(input("體育:"))
+py=int(input("程式設計:"))
+a.append(chi)
+a.append(eng)
+a.append(ma)
+a.append(gym)
+a.append(py)
+a=[chi,eng,ma,gym,py]
+b=sorted(a)
+b.reverse()
+print("平均分數:",(chi+eng+ma+gym+py)/5)
+if (b[0]==chi):
+    print("最高分科目:國文",chi,"分")
+elif(b[0]==eng):
+    print("最高分科目:英文",eng,"分")
+elif(b[0]==ma):
+    print("最高分科目:微積分",ma,"分")
+elif(b[0]==gym):
+    print("最高分科目:體育",gym,"分")
+elif(b[0]==py):
+    print("最高分科目:程式設計",py,"分")
+if (b[4]==chi):
+    print("最低分科目:國文",chi,"分")
+elif(b[4]==eng):
+    print("最低分科目:英文",eng,"分")
+elif(b[4]==ma):
+    print("最低分科目:微積分",ma,"分")
+elif(b[4]==gym):
+    print("最低分科目:體育",gym,"分")
+elif(b[4]==py):
+    print("最低分科目:程式設計",py,"分")

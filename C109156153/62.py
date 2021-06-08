@@ -1,0 +1,14 @@
+dict1={"蘋果":"紅色","香蕉":"黃色","葡萄":"紫色","藍莓":"藍色","橘子":"橘色"}
+key=list(dict1.keys())
+print("dictˍkeys(",key[0],",",key[1],",",key[2],",",key[3],",",key[4],")")
+food=str(input("請輸入水果:"))
+if(food==key[0]):
+    print("蘋果是紅色")
+elif(food==key[1]):
+    print("香蕉是黃色")
+elif(food==key[2]):
+    print("葡萄是紫色")
+elif(food==key[3]):
+    print("藍莓是藍色")
+elif(food==key[4]):
+    print("橘子是橘色")

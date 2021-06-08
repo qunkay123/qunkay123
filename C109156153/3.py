@@ -1,0 +1,25 @@
+a=int(input())
+if((a-2010)%12==0):
+    print("tiger")
+elif((a-2010)%12==1):
+    print("rabbit")
+elif((a-2010)%12==2):
+    print("dragon")
+elif((a-2010)%12==3):
+    print("snake")
+elif((a-2010)%12==4):
+    print("horse")
+elif((a-2010)%12==5):
+    print("sheep")
+elif((a-2010)%12==6):
+    print("monkey")
+elif((a-2010)%12==7):
+    print("rooster")
+elif((a-2010)%12==8):
+    print("dog")
+elif((a-2010)%12==9):
+    print("pig")
+elif((a-2010)%12==10):
+    print("rat")
+elif((a-2010)%12==11):
+    print("ox")

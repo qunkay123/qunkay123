@@ -1,0 +1,14 @@
+a=str(input("輸入查詢的學號為:"))
+dict1={"123":"Tom","456":"Cat","789":"Nana","321":"Lim","654":"Won"}
+b=list(dict1.keys())
+value=list(dict1.values())
+if(a==b[0]):
+    print("學生資料為:",b[0],value[0],"DTGD")
+elif(a==key[1]):
+    print("學生資料為:",b[1],value[1],"CSIE")
+elif(a==key[2]):
+    print("學生資料為:",b[2],value[2],"ASIE")
+elif(a==key[3]):
+    print("學生資料為:",b[3],value[3],"DBA")
+elif(a==key[4]):
+    print("學生資料為:",b[4],value[4],"FDD")
